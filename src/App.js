@@ -5,10 +5,13 @@ import { Carousel } from 'react-responsive-carousel';
 function App() {
   return (
     <div className="appContainer">
-      <img className="logo" src={require("./img/mrrecipe.png")} alt=""/>
+      <div className="logoContainer">
+        <img className="logo" src={require("./img/mrrecipe.png")} alt=""/>
+        <p className="logoText">Mr. Recipe</p>
+      </div>
       <div class="flexContainer">
         <div className="left">
-          <Carousel showThumbs={false} showStatus={false} infiniteLoop autoPlay showArrows={false} width={"475px"}>
+          <Carousel showThumbs={false} showStatus={false} infiniteLoop autoPlay showArrows={false} width="65%">
             <div>
               <img src={require("./img/pic1.png")} alt=""/>
             </div>
@@ -22,14 +25,14 @@ function App() {
         </div>
         <div className="right">
           <div className="info">
-            <p className="title">Download Mr. Recipe</p>
+            <p className="title">Download Our App</p>
             <p className="description">Mr. Recipe is a social media recipe app designed for chefs of all skill levels to discover and share new recipes. Have a favorite recipe you've always wanted to share? This is the perfect place to post it. Bored? Find a recipe that stands out to you and create it. With Mr. Recipe, you can step outside of your comfort zone and experiment with brand-new recipes!</p>
             <div className="links">
               <div style={{display: 'flex', flexDirection: 'column'}}>
                 <a href="https://apps.apple.com/us/app/mr-recipe/id1666779736"><img className="download" src={require("./img/ios.png")} alt=""/></a>
                 <a href="https://play.google.com/store/apps/details?id=com.cooly4477.RecipesApp&hl=en_US&gl=US"><img className="download" src={require("./img/android.png")} alt=""/></a>
               </div>
-              <img className="qr" src={require("./img/mrrecipeqrcode2.png")} alt=""/>
+              <img className="qr" src={require("./img/mrrecipeqrcode.png")} alt=""/>
             </div>
           </div>
         </div>

@@ -11,15 +11,31 @@
 .appContainer {
   height: 100vh;
   width: 100vw;
+  position: relative;
+  overflow-x: hidden;
+  min-height: 500px;
 }
 
-.logo {
+.logoContainer {
   position: absolute;
   left: 0;
   top: 0;
   margin: 25px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
   width: 50px;
   height: 50px;
+}
+
+.logoText {
+  font-size: 26px;
+  color: rgb(67, 193, 243);
+  font-family: "Pacifico";
+  margin: 0;
 }
 
 .flexContainer {
@@ -36,6 +52,13 @@
   justify-content: center;
   width: 40%;
   z-index: 2;
+  min-width: 450px;
+  min-height: 450px;
+}
+
+.left .carousel-root {
+  display: flex;
+  justify-content: center;
 }
 
 .right {
@@ -51,17 +74,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(105, 175, 255, 0.3);
+  background: rgb(255, 189, 113);
   padding: 25px;
   border-radius: 20px;
-  -webkit-backdrop-filter: blur(.1rem);
-  backdrop-filter: blur(.1rem);
 }
 
 .title {
-  font-size: 64px;
-  font-family: "Pacifico";
+  font-size: 58px;
+  font-weight: bold;
   margin: 0;
+  text-align: center;
 }
 
 .description {
@@ -92,4 +114,163 @@
   position: absolute;
   bottom: 0;
   left: 0;
+  width: 100%;
+}
+
+@media (max-width: 1642px) {
+  .title {
+    font-size: 54px;
+  }
+  .description {
+    font-size: 18px;
+  }
+  .right .qr {
+    width: 175px;
+    height: 175px;
+  }
+  .download {
+    height: 90px;
+  }
+}
+
+@media (max-width: 1405px) {
+  .title {
+    font-size: 45px;
+  }
+  .description {
+    font-size: 17px;
+  }
+  .right .qr {
+    width: 150px;
+    height: 150px;
+  }
+  .download {
+    height: 80px;
+  }
+}
+
+@media (max-width: 1192px) {
+  .title {
+    font-size: 40px;
+  }
+  .description {
+    font-size: 16px;
+  }
+  .right .qr {
+    width: 125px;
+    height: 125px;
+  }
+  .download {
+    height: 70px;
+  }
+}
+
+@media (max-width: 1073px) {
+  .title {
+    font-size: 32px;
+  }
+  .description {
+    font-size: 15px;
+  }
+  .right .qr {
+    width: 110px;
+    height: 110px;
+  }
+  .download {
+    height: 60px;
+  }
+}
+
+@media (max-width: 883px) {
+  .appContainer {
+    height: 140vh;
+  }
+  .flexContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left {
+    width: 80%;
+    max-width: 650px;
+    min-width: 500px;
+    margin-bottom: 0;
+  }
+  .right {
+    width: 60%;
+  }
+}
+
+@media (max-width: 565px) {
+  .flexContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left {
+    width: 80%;
+    min-width: 500px;
+  }
+  .right {
+    width: 60%;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .logo {
+    width: 35px;
+    height: 35px;
+  }
+  .logoText {
+    font-size: 23px;
+  }
+}
+
+@media (max-height: 850px) and (max-width: 883px) {
+  .appContainer {
+    height: 150vh;
+  }
+}
+
+@media (max-height: 800px) and (max-width: 883px) {
+  .appContainer {
+    height: 175vh;
+  }
+}
+
+@media (max-height: 695px) and (max-width: 883px) {
+  .appContainer {
+    height: 200vh;
+  }
+}
+
+@media (max-height: 600px) and (max-width: 883px) {
+  .appContainer {
+    height: 225vh;
+  }
+}
+
+@media (max-height: 530px) and (max-width: 883px) {
+  .appContainer {
+    height: 250vh;
+  }
+}
+
+@media (max-height: 475px) and (max-width: 883px) {
+  .appContainer {
+    height: 275vh;
+  }
+}
+
+@media (max-height: 580px) and (min-width: 884px)  {
+  .left {
+    min-height: 600px;
+  }
+  .right {
+    min-height: 575px;
+  }
+}
+
+@media (max-height: 580px) and (min-width: 884px)  {
+  .appContainer {
+    height: 150vh;
+  }
 }
