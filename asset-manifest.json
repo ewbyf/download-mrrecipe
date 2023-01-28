@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/download-mrrecipe/static/css/main.ef19679a.css",
+    "main.js": "/download-mrrecipe/static/js/main.f6ed4ba7.js",
+    "static/media/pic1.png": "/download-mrrecipe/static/media/pic1.7fc47c00f776e6cedfb5.png",
+    "static/media/pic2.png": "/download-mrrecipe/static/media/pic2.48a8593e499a61180b16.png",
+    "static/media/pic3.png": "/download-mrrecipe/static/media/pic3.7755f2f532d7e6eb6d66.png",
+    "static/media/Pacifico-Regular.ttf": "/download-mrrecipe/static/media/Pacifico-Regular.c0d735fc04154e03a691.ttf",
+    "static/media/mrrecipe.png": "/download-mrrecipe/static/media/mrrecipe.dd04198e0eed22346f46.png",
+    "static/media/ios.png": "/download-mrrecipe/static/media/ios.bc3a8c083095413cf3be.png",
+    "static/media/helvetica-rounded-bold-5871d05ead8de.otf": "/download-mrrecipe/static/media/helvetica-rounded-bold-5871d05ead8de.df374f732d8d59ef5980.otf",
+    "static/media/mrrecipeqrcode.png": "/download-mrrecipe/static/media/mrrecipeqrcode.383553ca1e06eca8c8f4.png",
+    "index.html": "/download-mrrecipe/index.html",
+    "main.ef19679a.css.map": "/download-mrrecipe/static/css/main.ef19679a.css.map",
+    "main.f6ed4ba7.js.map": "/download-mrrecipe/static/js/main.f6ed4ba7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef19679a.css",
+    "static/js/main.f6ed4ba7.js"
+  ]
+}
